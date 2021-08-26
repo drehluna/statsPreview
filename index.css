@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+
+.Main {
+    
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 8px;
+    height: 23rem;
+    position: relative;
+}
+
+.img{
+   
+    height: 100%;
+    border-end-end-radius: 8px;
+    border-top-right-radius: 8px;
+    left: 0px;
+    background-image: url(./images/image-header-desktop.jpg);
+    width: 32rem;
+    height: 23rem;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(277, 64%, 61%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+
+.ins {
+    color: hsl(277, 64%, 61%);
+}
+
+.description {
+
+   margin: 40px 40px;
+   display: flex;
+   flex-direction: column;
+   padding: 30px;
+}
+
+.description h3 {
+    font-size: 25px;
+    max-width: 20rem;
+    font-family: 'Lexed Deca', sans-serif;
+    color: white;
+}
+
+.description p {
+    margin-top: 20px;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Inter';
+    font-size: 13px;
+    max-width: 20rem;
+    font-weight: 400;
+}
+
+.dados{
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+}
+
+.dados p {
+    
+    margin-top: 40%;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 700;
+    padding-left: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+.dados p > span{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Inter';
+    font-size: 10px;
+    font-weight: 700;
+}
+
